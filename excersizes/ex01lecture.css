@@ -1,10 +1,11 @@
-ol {color: rgb(95, 95, 243); background: rgb(239, 239, 183); width: 80}
-h1 {background: rgb(243, 243, 92); 
-color: blue;}
-h2 {color: rgb(28, 28, 237)}
+ol {color: rgb(95, 95, 243); background: rgb(239, 239, 183); width: 80px}
+h1 {background: rgb(243, 243, 92);
+color: blue; width: 155px; padding: 20px}}
+h2 {color: rgb(255, 238, 2)}
 p {color: rgb(95, 95, 243); background: rgb(239, 239, 183); width: 500px;}
-#riis {border: 10px solid blue;}
+#riis {border: 20px solid blue; Width: 50%}
 
 html { background: rgb(181, 221, 248)}
-h3 {color: rgb(11, 11, 133); background: rgb(99, 148, 232); width: 210px; height: } 
-               
+h3 {color: rgb(11, 11, 133); background: rgb(99, 148, 232); width: 210px; height: }
+h1 {margin-right: auto; margin-left: auto}
+ h2 {margin-left: auto; margin-right: auto}
