@@ -58,3 +58,10 @@ Home page styles
     
 }
 
+IMG {
+    display: block;
+}
+IMG:hover {
+    width: 101%;
+    transition: linear 1000ms;
+}
