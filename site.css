@@ -72,12 +72,12 @@ margin: 0 0 25px 0;
     border-radius: 12px;
 }
 #profile p {
-    font-size: 90% !important;
+    font-size: 90%;
 }
 #navigation {
-    background: #fff7e8 !important;
-    padding: 20px !important;
-    border-radius: 12px !important;
+    background: #fff7e8;
+    padding: 20px;
+    border-radius: 12px;
 }
 #navigation h2 {
     margin-top: 0;
@@ -87,5 +87,5 @@ margin: 0 0 25px 0;
 }
 #navigation a {
     color: #1d1184;
-    font-weight: bold !important; 
+    font-weight: bold; 
 }
