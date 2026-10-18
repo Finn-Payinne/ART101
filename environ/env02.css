@@ -1,6 +1,6 @@
 h2 {
     color: rgb(255, 255, 255);
-    position:absolute;
+    position:fixed;
      top: 100px;
         left: 110px;
 }
@@ -15,6 +15,12 @@ p {
     position: fixed;
     bottom: 130px;
     left: 150px;
+}
+#barrel {
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
 }
 #rocket{
     transform: rotate(30deg);
@@ -53,7 +59,16 @@ p {
 
 
             }
+        
 #main {
     display: flex !important;
     gap: 30px;
+    align-items:flex-start;
+    
+}
+#background {
+    display:flex !important;
+    gap:30px;
+   
+
 }
