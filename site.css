@@ -5,9 +5,8 @@ body {
     font-family: monospace;
 }
 
-img {width: 200px;
+img {
     outline: dark blue;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +33,7 @@ ol {
     border-radius: 5px;
     padding: 30px;
     background-color:#8ac9f0;
-    width: 40vh 
+   
 }
 #page {
     max-width: 900px;
@@ -59,9 +58,34 @@ margin: 0 0 25px 0;
     font-style: italic;
     margin-top: 0;
     line-height: 1.5;
-
 }
 #introduction p {
     font-size: 120%;
     line-height: 1.5;
+}
+#profile {
+    text-align: center;
+    flex: 1;
+}
+#profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+#profile p {
+    font-size: 90% !important;
+}
+#navigation {
+    background: #fff7e8 !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+}
+#navigation h2 {
+    margin-top: 0;
+}
+#navigation li {
+    margin-bottom: 8px;
+}
+#navigation a {
+    color: #1d1184;
+    font-weight: bold !important; 
 }
