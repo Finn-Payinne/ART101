@@ -18,7 +18,7 @@ $("#needy-button") .html( buttontext );
 
 $("body").css("background-color", colors[count-1] );
 
-$("body").append(" <img src='" +colors[count-1] +".gif'>");
+$("body").append(" <img src='images/" +colors[count-1] +".gif'>");
 
 
 } )
