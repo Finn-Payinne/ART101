@@ -6,7 +6,6 @@ h2 {
 }
 p {
     color: white;
-    position: fixed;
     top: 320px;
     left: 990px;
     
@@ -75,7 +74,7 @@ p {
 
 
  #leon-stats  {
-    color: burlywood;
+    color: rgb(68, 51, 29);
     text-align: center;
     font-size: larger;
     
@@ -98,13 +97,23 @@ p {
     padding: 12px 24px;
     border-width: 5px;
     cursor: pointer;
+    background: rgb(184, 170, 143);
 }
 .main:hover .hover-button {
   opacity: 1;
+  display:block;
 } 
 
 #output {
-    background: black;
-    left: 50%
+    background: rgb(49, 33, 2);
+    text-align: left;
+    max-width: 200px;
+    position: relative;
+    top: 60vh;
+    left: 10vh;
+    padding-left: 15px;
+    border: 5px SOLID rgb(184, 170, 143);
+    z-index: 999;
+    
 }
  

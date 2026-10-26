@@ -21,11 +21,12 @@ $("#leon-stats").click(function () {
     let arrayPosition = count;
     let currentMood = mainEntity.moods[arrayPosition];
     let ammo = mainEntity.ammo[arrayPosition]
+    let environment = environmentElements[arrayPosition]
     let message = "<p>You checked on leon " + count + " times.</p>";
 
-    message = message + "<p>Leon feels " + currentMood + ".</p>";
     message = message + "<p>Name: " + mainEntity.name + ".</p>";
-    message = message + "<p>Nearby: " + environmentElements.arrayPosition + ".</p>";
+    message = message + "<p>Leon feels " + currentMood + ".</p>";
+    message = message + "<p>Nearby: " + environment + ".</p>";
     message = message + "<p>Ammo: " + ammo + ".</p>";
 
 
