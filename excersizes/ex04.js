@@ -1,7 +1,7 @@
 // Clicker button progrm
 let count=0
 
-let colors=["green", "orange", "brown", "yellow", "gold", "purple", "red", "pink"];
+let colors=["green", "orange", "brown", "blue", "gold", "purple", "red", "pink"];
 
 let buttontext="";
 
@@ -18,7 +18,7 @@ $("#needy-button") .html( buttontext );
 
 $("body").css("background-color", colors[count-1] );
 
-$("body").append(" <img src='images/" +colors[count-1] +".gif'>");
+$("body").append(" <img width='50' img src='images/" +colors[count-1] +".gif'>");
 
 
 } )
