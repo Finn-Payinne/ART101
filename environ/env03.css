@@ -1,0 +1,110 @@
+h2 {
+    color: rgb(255, 255, 255);
+    position:fixed;
+     top: 100px;
+        left: 110px;
+}
+p {
+    color: white;
+    position: fixed;
+    top: 320px;
+    left: 990px;
+    
+}
+#flash {
+    position: fixed;
+    bottom: 130px;
+    left: 150px;
+}
+#barrel {
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
+}
+#rocket{
+    transform: rotate(30deg);
+    position: fixed;
+    bottom: 250px;
+    left: 100px;
+    height: 300px;
+}
+    #leon {
+        position:fixed;
+        bottom: 0;
+      left: 90px;
+
+        height: 610px;
+        
+    }
+#ganados {
+    position:fixed;
+    bottom:0;
+    left:900px;
+    height:400px;
+}
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+
+    }
+    body {
+                background-image: url(images/residentevil.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+              background-position: center bottom;
+
+
+            }
+        
+#main {
+    display: flex !important;
+    gap: 30px;
+    align-items:flex-start;
+    
+}
+#background {
+    display:flex !important;
+    gap:30px;
+   
+
+}
+/*
+
+ #leon-stats  {
+    color: burlywood;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+/*.main {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main .hover-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    padding: 12px 24px;
+    border-width: 5px;
+    cursor: pointer;
+}
+.main:hover .hover-button {
+  opacity: 1;
+} 
+
+#output {
+    background: black;
+    left: 50%
+}
+ 
