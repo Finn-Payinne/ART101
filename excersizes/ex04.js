@@ -30,7 +30,7 @@ if ((count > 10) && (count <= 20)) {  $("#needy-button").after("<p>mood is... ho
 else if ((count >= 5) && (count < 10)) {$("#needy-button").after("<p>mood is... horsing around</p>");}
 else if (count < 5) { $("#needy-button").after("<p>mood is... giddy!</p>"); }
 
-if (count == 67) {$("#needy-button").after("<p>HA 67! Thiks Theven! </p>");
+if ((count == 67) || (count == 7)) {$("#needy-button").after("<p>HA 67! Thiks Theven! </p>");
     $("body").append(" <img width='70' img src='images/sixseven.gif'>");
 }
 
