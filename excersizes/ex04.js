@@ -1,5 +1,6 @@
 // Clicker button progrm
-let count=0
+let count=0; 
+let colorsCount=0;
 
 let colors=["green", "orange", "brown", "blue", "gold", "purple", "red", "pink"];
 
@@ -9,16 +10,20 @@ $("#needy-button").click( function() {
     // What to do when button is clicked
 count = count + 1;
 
-console.log(count);
-console.log(colors[count-1])
 
-buttontext="Ouch x" + count + " and color is " + colors[count-1];
+console.log(count);
+console.log(colors[colorsCount])
+
+buttontext="Horse x" + count + " and color is " + colors[colorsCount];
 
 $("#needy-button") .html( buttontext );
 
-$("body").css("background-color", colors[count-1] );
+$("body").css("background-color", colors[colorsCount] );
 
-$("body").append(" <img width='50' img src='images/" +colors[count-1] +".gif'>");
+$("body").append(" <img width='50' img src='images/" +colors[colorsCount] +".gif'>");
+// if we run out of colors, start from the first color
+colorsCount = colorsCount + 1;
+if ( colorsCount >= 8 ) { colorsCount = 0; }
 
 
-} )
+} );
