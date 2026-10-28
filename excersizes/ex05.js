@@ -1,9 +1,15 @@
+
+
+
+
+//this function expects a color
 function paintPage (color) {
     $("body").css("background-color", color );
 
 }
 
-paintPage("magenta");
+paintPage("royalblue");
+
 
 let count=0; 
 let colorsCount=0;
@@ -24,7 +30,8 @@ buttontext="Horse x" + count + " and color is " + colors[colorsCount];
 
 $("#needy-button") .html( buttontext );
 
-$("body").css("background-color", colors[colorsCount] );
+paintPage(colors[colorsCount]);
+//$("body").css("background-color", colors[colorsCount] );
 
 $("body").append(" <img width='100' img src='images/" +colors[colorsCount] +".gif'>");
 
@@ -45,3 +52,11 @@ if ( colorsCount >= 8 ) { colorsCount = 0; }
 
 
 } );
+
+$("color-circle").css("background-color", this.id);
+
+$(".color-circle").click( function(){
+    console.log("a circle was clicked");
+    paintPage(this.id);
+})
+
