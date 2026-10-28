@@ -20,7 +20,7 @@ $("#needy-button") .html( buttontext );
 
 $("body").css("background-color", colors[colorsCount] );
 
-$("body").append(" <img width='70' img src='images/" +colors[colorsCount] +".gif'>");
+$("body").append(" <img width='100' img src='images/" +colors[colorsCount] +".gif'>");
 
 
 // if we run out of colors, start from the first color
