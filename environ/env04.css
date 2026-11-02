@@ -1,0 +1,238 @@
+h2 {
+    color: rgb(255, 255, 255);
+    position:fixed;
+     top: 100px;
+        left: 110px;
+}
+p {
+    color: white;
+    top: 320px;
+    left: 990px;
+    
+}
+#flash {
+    position: fixed;
+    bottom: 130px;
+    left: 150px;
+}
+#barrel {
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
+}
+#rocket{
+    transform: rotate(30deg);
+    position: fixed;
+    bottom: 250px;
+    left: 100px;
+    height: 300px;
+}
+    #leon {
+        position:fixed;
+        bottom: 0;
+      left: 90px;
+
+        height: 610px;
+        
+    }
+#ganados {
+    position:fixed;
+    bottom:0;
+    left:900px;
+    height:400px;
+}
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+
+    }
+    body {
+                background-image: url(images/residentevil.jpg);
+                background-repeat:no-repeat;
+                background-size: cover;
+              background-position: center bottom;
+              min-height: 100vh;
+              min-width: 100%;
+              background-attachment: fixed;
+            
+
+            }
+        
+#main {
+    display: flex !important;
+    gap: 30px;
+    align-items:flex-start;
+    
+}
+#background {
+    display:flex !important;
+    gap:30px;
+   
+
+}
+
+
+ #leon-stats  {
+    color: rgb(68, 51, 29);
+    text-align: center;
+    font-size: larger;
+    
+}
+
+    .main {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.main .hover-button{
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    padding: 12px 24px;
+    border-width: 5px;
+    cursor: pointer;
+    background: rgb(184, 170, 143);
+}
+.main:hover .hover-button {
+  opacity: 1;
+  display:block;
+} 
+
+#output {
+    background: rgb(49, 33, 2);
+    text-align: left;
+    max-width: 200px;
+    position: relative;
+    top: 60vh;
+    left: 10vh;
+    padding-left: 15px;
+    z-index: 999;
+    
+}
+ /* SECOND ENVIRONMENT: CASTLE */
+.castle-style { 
+            }
+            
+body.castle-active {
+  background-image: url('images/residentevil-castle.jpg') ;
+             width: 100% !important;
+                min-height: 100vh !important;
+                background-size: cover !important;
+                background-repeat: no-repeat;
+              background-position: center bottom;
+              transition: background-image 0.5s ease;
+}
+
+
+#castle-leon {
+    opacity: 0;
+}
+body.castle-active #castle-leon {
+    position:fixed;
+        bottom: -250px;
+        left: 150px;
+        height: 900px;
+        opacity: 1;
+        z-index: -1;
+           
+}
+body.castle-active #bro {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    position:fixed;
+     top: 110px;
+        left: 60px;
+        font-size:x-large;
+
+}
+body.castle-active #crate {
+    opacity: 1;
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
+}
+body.castle-active #castle-ganados {
+    opacity: 1;
+    position:fixed;
+    bottom:0;
+    left:850px;
+    height:600px;
+    z-index: 1
+}
+body.castle-active #ammo {
+    opacity: 1;
+    position: fixed;
+    left: 830px;
+    top: 420px;
+    height: 50px;
+    
+}
+body.castle-active #ashley {
+    position:fixed;
+        bottom: -150px;
+        left: 10px;
+        height: 700px;
+        opacity: 1;
+        z-index: -2;
+}
+#castle-button {
+    color:beige;
+    border: rgb(86, 85, 84) solid 5px ;
+    background: rgb(184, 170, 143);
+    width: 200px;
+    height: 50px;
+    font-size:medium;
+}
+
+body.castle-active #leon {
+    opacity: 0
+}
+body.castle-active #rocket {
+    opacity: 0
+}
+body.castle-active #flash {
+    opacity: 0
+}
+body.castle-active #ganados {
+    opacity: 0
+}
+body.castle-active #barrel {
+    opacity: 0
+}
+body.castle-active h2 {
+    opacity: 0
+}
+#bro  {
+    opacity: 0;
+    position:fixed;
+    bottom: 0;
+}
+#crate {
+    opacity: 0;
+    position: fixed;
+    bottom: 0
+}
+#castle-ganados {
+    opacity: 0;
+    position: fixed;
+    bottom: 0;
+}
+#ammo {
+    opacity:0;
+    position: fixed;
+    top: 0
+}
+#ashley {
+    opacity: 0;
+
+}
