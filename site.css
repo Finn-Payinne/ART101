@@ -6,7 +6,8 @@ body {
   
 }
 #extra {
-    
+    background-color: rgb(253, 218, 245);
+    padding: 20px;
     gap: 5px;
     position: relative;
     }
@@ -31,7 +32,7 @@ body {
     
 }
 img {
-    outline: dark blue;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,6 +49,7 @@ h1 {
 
 h2 {
 background-color: rgb(143, 247, 143);
+border: rgb(1, 197, 1),solid;
 border-radius: 5px;
 width: 40vh;
 display: flex;
@@ -59,6 +61,7 @@ ol {
     border-radius: 5px;
     padding: 30px;
     background-color:#8ac9f0;
+    border: blue, solid;
    
 }
 #page {
@@ -66,7 +69,6 @@ ol {
     margin: 0 auto 0 auto;
     background: rgb(253, 218, 245);
     padding:30px;
-    padding-top: 30px;
 }
 
 #top-section {
