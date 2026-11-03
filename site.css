@@ -62,8 +62,9 @@ ol {
     padding: 30px;
     background-color:#8ac9f0;
     border: blue, solid;
-   
 }
+
+
 #page {
     max-width: 900px;
     margin: 0 auto 0 auto;
@@ -117,6 +118,8 @@ margin: 0 0 25px 0;
 #navigation a {
     color: #1d1184;
     font-weight: bold; 
+}
+
 }
 body {
                 background-image: url(excersizes/images/images/bubbles.gif);
