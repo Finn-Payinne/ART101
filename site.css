@@ -3,11 +3,21 @@ body {
      padding: 50px;
      color: #1d1184;
     font-family: monospace;
+  
 }
 #extra {
-    padding: 10px;
     
-
+    gap: 5px;
+    position: relative;
+    }
+#blinkies {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 10px;
+    gap: 5px;
+    height: 30px;
+   
 }
 
 img {
