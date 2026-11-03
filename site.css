@@ -6,7 +6,7 @@ body {
   
 }
 #extra {
-    background-color: rgb(253, 218, 245);
+    background-color: rgb(255, 203, 243);
     padding: 20px;
     gap: 5px;
     position: relative;
@@ -29,6 +29,7 @@ body {
 }
 #drummerboy {
     border:#c40798 solid 5px;
+    
     
 }
 img {
@@ -70,7 +71,14 @@ ol {
     margin: 0 auto 0 auto;
     background: rgb(253, 218, 245);
     padding:30px;
+    background-image:  url(excersizes/images/images/pinkglitterstar.gif);
+                background-repeat:no-repeat;
+                background-size: cover;
+              background-position: center bottom;
+              background-attachment: fixed;
+            
 }
+
 
 #top-section {
 display: flex;
