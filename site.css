@@ -4,6 +4,11 @@ body {
      color: #1d1184;
     font-family: monospace;
 }
+#extra {
+    padding: 10px;
+    
+
+}
 
 img {
     outline: dark blue;
