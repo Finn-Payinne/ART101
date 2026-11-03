@@ -18,13 +18,24 @@ body {
     gap: 5px;
     height: 30px;
    z-index: 999;
+   background-color: rgb(196, 7, 152);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+   border-radius: 5px;
+   
 }
-
+#drummerboy {
+    border:#c40798 solid 5px;
+    
+}
 img {
     outline: dark blue;
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 p,
@@ -53,8 +64,9 @@ ol {
 #page {
     max-width: 900px;
     margin: 0 auto 0 auto;
-    background: white;
-    padding: 30px;
+    background: rgb(253, 218, 245);
+    padding:30px;
+    padding-top: 30px;
 }
 
 #top-section {
@@ -64,9 +76,9 @@ align-items: flex-start;
 margin: 0 0 25px 0;
 }
 #introduction {
-    background: #f3f7ff;
+    background: #ff8ff0;
     padding: 20px;
-    border-left: 6px solid #1d1184;
+    border-left: 6px solid #c40798;
     flex: 2;
 }
 #introduction h2 {
@@ -105,7 +117,7 @@ margin: 0 0 25px 0;
     font-weight: bold; 
 }
 body {
-                background-image: url(excersizes/images/images/bubblebackground.gif);
+                background-image: url(excersizes/images/images/bubbles.gif);
                 background-repeat:no-repeat;
                 background-size: cover;
               background-position: center bottom;
