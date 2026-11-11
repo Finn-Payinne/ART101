@@ -130,7 +130,7 @@ border-style: groove;
 .pokemon{
     
     display: flex;
-    Gap: 20px;
+    gap: 20px;
     background-color: #ff8ff0;
     padding: 20px;
     border: 6px solid #c40798;
