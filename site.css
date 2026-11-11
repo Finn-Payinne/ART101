@@ -68,7 +68,10 @@ ol {
     background-color:#8ac9f0;
     border: blue, solid;
 }
-
+#highlight {
+    background-color: rgb(255, 255, 0, 0.5);
+    
+}
 
 #page {
     max-width: 900px;
@@ -83,6 +86,46 @@ ol {
             
 }
 
+.check-out {
+    background: #ff8ff0;
+    padding: 20px;
+    border-left: 6px solid #c40798;
+    flex: 2;
+    max-width: 350px;
+}
+
+#marg {
+    max-width: 150px;
+    border:#ff8ff0 solid 4px;
+    border-radius: 100%;
+    border-style: groove;
+}
+
+#missmarg {
+    background-image: url(excersizes/images/glitterback.jpg);
+    border-radius:8px;
+    padding: 10px;
+}
+
+.bottom-half {
+    display: flex;
+    gap: 50px;
+    
+}
+#margtext {
+    max-width: 150px;
+}
+
+#finstatext {
+    max-width: 150px;
+}
+
+#finnst {
+border-radius: 100%;
+max-width: 140px;
+border:#ff8ff0 solid 4px;
+border-style: groove;
+}
 
 #top-section {
 display: flex;

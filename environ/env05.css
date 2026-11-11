@@ -1,0 +1,294 @@
+h2 {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 100px;
+    left: 110px;
+}
+
+p {
+    color: white;
+    top: 320px;
+    left: 990px;
+
+}
+
+#flash {
+    position: fixed;
+    bottom: 130px;
+    left: 150px;
+}
+
+#barrel {
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
+}
+
+#rocket {
+    transform: rotate(30deg);
+    position: fixed;
+    bottom: 250px;
+    left: 100px;
+    height: 300px;
+}
+
+#leon {
+    position: fixed;
+    bottom: 0;
+    left: 90px;
+
+    height: 610px;
+
+}
+
+#ganados {
+    position: fixed;
+    bottom: 0;
+    left: 900px;
+    height: 400px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+body {
+    background-image: url(images/residentevil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 100vh;
+    min-width: 100%;
+    background-attachment: fixed;
+
+
+}
+
+#main {
+    display: flex !important;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+
+#background {
+    display: flex !important;
+    gap: 30px;
+
+
+}
+
+
+/* body.castle-active #leon-stats {
+    display:block;
+    color: rgb(68, 51, 29);
+    text-align: center;
+    font-size:medium;
+    opacity: 1;
+    
+}
+
+.main {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main .hover-button {
+    position: fixed;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    padding: 1px 15px;
+    border-width: 5px;
+    cursor: pointer;
+    background: rgb(184, 170, 143);
+}
+
+.main:hover .hover-button {
+    opacity: 1;
+    display: block;
+} */
+
+#output {
+    background: rgb(49, 33, 2);
+    text-align: left;
+    max-width: 200px;
+    position: relative;
+    top: 60vh;
+    left: 10vh;
+    padding-left: 15px;
+    z-index: 999;
+
+}
+
+/* SECOND ENVIRONMENT: CASTLE */
+
+
+body.castle-active {
+    background-image: url('images/residentevil-castle.jpg');
+    width: 100% !important;
+    min-height: 100vh !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: background-image 0.5s ease;
+}
+
+
+
+
+
+body.castle-active #castle-leon {
+    display:block;
+    position: fixed;
+    bottom: -250px;
+    left: 150px;
+    height: 900px;
+    opacity: 1;
+    z-index:2;
+
+}
+
+body.castle-active #bro {
+    display:block;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 110px;
+    left: 60px;
+    font-size: x-large;
+
+}
+
+body.castle-active #crate {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    left: 700px;
+    bottom: 60px;
+    height: 300px;
+}
+
+body.castle-active #castle-ganados {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    bottom: 0;
+    left: 850px;
+    height: 600px;
+    z-index: 1
+}
+
+body.castle-active #ammo {
+    display: block;
+    opacity: 1;
+    position: fixed;
+    left: 830px;
+    top: 420px;
+    height: 50px;
+
+}
+
+body.castle-active #ashley {
+    display:block;
+    position: fixed;
+    bottom: -150px;
+    left: 10px;
+    height: 700px;
+    opacity: 1;
+    z-index: 1;
+    
+    
+}
+
+
+
+#castle-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: beige;
+    border: rgb(86, 85, 84) solid 5px;
+    background: rgb(184, 170, 143);
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    z-index: 999;
+
+}
+
+
+
+body.castle-active #leon {
+    display: none;
+}
+
+body.castle-active #rocket {
+    display: none;
+}
+
+body.castle-active #flash {
+    display: none;
+}
+
+body.castle-active #ganados {
+   display:none;
+}
+
+body.castle-active #barrel {
+    display: none;
+}
+
+body.castle-active h2 {
+    display: none;
+}
+
+#leon-stats {
+    display: none;
+}
+
+#bro {
+    display:none;
+    position: fixed;
+    
+}
+
+#crate {
+    display:none;
+    position: fixed;
+    bottom: 0
+}
+
+#castle-ganados {
+    display:none;
+    position: fixed;
+    bottom: 0;
+}
+
+#ammo {
+    display:none;
+    position: fixed;
+    top: 0
+}
+
+ #ashley {
+    display:none;
+
+}
+#castle-leon {
+    display: none;
+}
+#herb {
+    display: none;
+}
+

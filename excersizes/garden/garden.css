@@ -23,4 +23,4 @@ input, select { padding: 10px; border: 1px solid #888; max-width: 100%; }
 #items { list-style: none; padding: 0; margin: 20px 0;   }
 
 
-#items li { margin-bottom: 8px; padding: 10px; border: 1px solid #ccc; background: #f7f7f5; overflow-wrap: anywhere; }
+#items li {margin-bottom: 8px; padding: 10px; border: 1px solid #ccc; background: #f7f7f5; overflow-wrap: anywhere; }
