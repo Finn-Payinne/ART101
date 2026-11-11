@@ -127,6 +127,39 @@ border:#ff8ff0 solid 4px;
 border-style: groove;
 }
 
+.pokemon{
+    display: flex;
+    Gap: 20px;
+    background: #ff8ff0;
+    padding: 20px;
+    border: 6px solid #c40798;
+    flex: 2;
+   border-radius: 5px;
+   background-image: url(excersizes/images/pokeball-back.png);
+}
+
+
+
+#toxintro {
+width: 50vh;
+display: flex;
+}
+
+#toxtextdeets{
+    max-width: 300px;
+}
+#tox{
+min-width: 350px;
+}
+#shout{
+    max-width: 120px;
+}
+#froakie, #jolteon{
+    max-width: 100px;
+
+}
+
+
 #top-section {
 display: flex;
 gap: 30px;
