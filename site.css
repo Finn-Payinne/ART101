@@ -128,14 +128,16 @@ border-style: groove;
 }
 
 .pokemon{
+    
     display: flex;
     Gap: 20px;
-    background: #ff8ff0;
+    background-color: #ff8ff0;
     padding: 20px;
     border: 6px solid #c40798;
     flex: 2;
    border-radius: 5px;
    background-image: url(excersizes/images/pokeball-back.png);
+              
 }
 
 
